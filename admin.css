@@ -1,0 +1,92 @@
+.Login-page{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background: url(images/tentang.png);no-repeat;
+background-size: cover;
+}
+.Login-box{ 
+   width: 200px;
+   position: absolute;
+   top: 50%;
+   left: 50%
+   transform:translate(-50%,-50%);
+   color: black;
+}
+.loging-box h1{
+	float: left;
+	font-size: 40px;
+	margin-bottom: 5px;
+	padding: 13px 0;
+
+}
+.textbox{
+	width: 100%
+	overflow:40px;
+	font-size: 20px;
+	padding: 8px,0;
+	border-bottom: 1px;
+}
+.textbox i{
+width: 100px;
+float: left;
+text-align: center;
+}
+.texbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: black;
+	font-size: 18px;
+	width: 80px;
+	float: left;
+	margin: 12px 0;
+
+}
+.btn{
+	width: 100%;
+	background: none;
+	color: black;
+	padding: 5px;
+	font-size: 18px;
+	cursor:pointer;
+	margin: 12px 0;
+}
+.container{
+	width: 700px;
+	margin: auto;
+	background-color: #ffffffff;
+}
+.header{
+	padding: 20px
+}
+.header ul li{
+	display: inline-block;
+	margin -top: 10px;
+	margin-right: 5px; 
+	
+}
+.header a{
+	text-decoration: none;
+	color: black;
+	padding: 3px
+}
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+.hero{
+	height: 300px;
+	background-size: cover;
+	background-position: 0 -180px;
+	border-top: 5px solid:lightskyblue;
+	border-bottom: 5px solid:lightskyblue;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: lightskyblue;
+	background-size: cover;
+}
